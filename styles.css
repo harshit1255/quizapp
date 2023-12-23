@@ -1,0 +1,222 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    max-width: 80%;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+
+}
+
+nav div:nth-child(2) {
+    margin-left: auto;
+}
+
+nav div {
+    padding: 1rem;
+    color: #E0E0E0;
+
+    font-family: Poppins;
+    /* font-size: 13.934px; */
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+nav div:last-child {
+    color: #FCC822;
+    ;
+    border: 1px solid #FCC822;
+    ;
+}
+
+hr {
+    max-width: 80%;
+    margin-top: 1rem;
+    margin-inline: auto;
+    border-top: 1px solid #ECECE8;
+    ;
+}
+
+#main {
+    max-width: 80%;
+    margin-inline: auto;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#text-section {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 3rem;
+}
+
+#text-section>div:first-child {
+    color: #333;
+
+    font-family: Roboto;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#text-section>div:nth-child(2) {
+    color: #828282;
+
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-left: 2px solid rgb(232, 232, 10);
+    padding-left: 1rem;
+}
+
+#text-section button {
+    width: 30%;
+    padding: 1rem 2rem;
+    background: linear-gradient(95deg, #FCC822 0%, #FFCD2E 100%);
+    box-shadow: 0px 10.45px 23.223px -6.967px #FBE18F;
+    border-style: none;
+    color: white;
+    transition: scale 0.3s ease-in-out
+}
+
+#text-section button:hover {
+    background: linear-gradient(95deg, #fbd34d 0%, #ffc400 100%);
+    scale: 1.1;
+}
+
+#topic-tags {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    max-width: 50%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    z-index: 1;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+#close-tags {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border-style: none;
+    margin-left: auto;
+}
+
+#topic-tags>button:hover {
+    scale: 1.2;
+
+}
+
+#tags {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    padding-inline: 2rem;
+}
+
+.tagbadge {
+    padding: 0.5rem 1rem;
+    background-color: #D1D1D1;
+    border-style: none;
+
+}
+/* .tagbadge:hover{
+    background-color: #f0e3e38e;
+} */
+#start {
+    margin-left: auto;
+    background: linear-gradient(95deg, #FCC822 0%, #FFCD2E 100%);
+    box-shadow: 0px 10.45px 23.223px -6.967px #FBE18F;
+    border-style: none;
+    padding: 1rem 2rem;
+    color: white;
+    transition: scale 0.3s ease-in-out;
+}
+
+#start:hover {
+    color: white;
+
+}
+
+#choose-text
+{
+    color: #333;
+font-size: 37.156px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+#tags>div
+{
+    display: flex;
+    align-items: center;
+}
+
+.none-display
+{
+    display: none;
+}
+#header
+{
+    background: #FCC822;
+    color: #FFF;
+font-family: Poppins;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 33.6px */
+padding-inline:2rem;
+}
+#options
+{   margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#options div
+{   text-align: center;
+    padding-inline: 2%;
+    height: 100px;
+    background-color: #828282;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+}
+#navigation{
+    width: 80%;
+margin-top: 2rem;
+display: flex;
+align-items: center;
+margin-inline: auto;
+justify-content: space-around;
+}
+#navigation button
+{
+    padding: 1rem 2rem;
+    border-style: none;
+    color: white;
+    background: linear-gradient(95deg, #FCC822 0%, #FFCD2E 100%);
+    box-shadow: 0px 5.806px 23.223px -6.967px #FBE18F;
+    font-size: 2rem;
+}
+#navigation button:hover
+{
+    background: linear-gradient(95deg, #FCC822 0%, #9f8223 100%);   
+}
